@@ -3,25 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,shopping_cart" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icons=person,shopping_cart,search"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
     <title>ECOHOUSE - Tienda de Mobiliario y Objetos Decorativos</title>
   </head>
   <body>
     <header>
-      <div>
-        <h1>ECOHOUSE</h1>
-      </div>
-      <div>
-        <form action="">
-          <input type="search" placeholder="Buscar..." />
-        </form>
-      </div>
-      <div>
-        <div>
-          <nav>
-            <ul>
-              <li><span class="material-symbols-outlined"> person </span></li>
-              <li><span class="material-symbols-outlined"> shopping_cart </span></li>
+      <div class="contenedor-principal">
+        <div class="contenedor-logo">
+          <h1><a href="">ECOHOUSE</a></h1>
+        </div>
+        <div class="contenedor-navegacion-items">
+          <nav class="navegacion-items">
+            <ul class="lista-items">
+              <li><a href="">Decoracion</a></li>
+              <li><a href="">Iluminación</a></li>
+              <li><a href="">Escritorio</a></li>
+              <li><a href="">Comedor</a></li>
+              <li><a href="">Living</a></li>
+              <li><a href="">Alfombras</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contenedor-barra-busqueda">
+          <span class="material-symbols-outlined"> search </span>
+          <form action="" method="post">
+            <input type="search" placeholder="Buscar..." />
+          </form>
+        </div>
+        <div class="contenedor-navegacion-usuario">
+          <nav class="navegacion-usuario">
+            <ul class="lista-usuario">
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">person</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined"
+                    >shopping_cart</span
+                  ></a
+                >
+              </li>
             </ul>
           </nav>
         </div>
