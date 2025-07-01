@@ -7,8 +7,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icons=account-circle,shopping_cart,search" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/producto.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>ECOHOUSE - Tienda de Mobiliario y Objetos Decorativos</title>
   </head>
@@ -35,7 +35,7 @@
       </div>
       <div class="contenedor-principal-header">
         <div class="contenedor-logo">
-          <h1><a href="#">ECOHOUSE</a></h1>
+          <h1><a href="../index.html">ECOHOUSE</a></h1>
         </div>
         <div class="contenedor-navegacion-items">
           <nav class="navegacion-items">
@@ -70,108 +70,7 @@
       </div>
     </header>
     <main>
-      <section class="seccion-carrusel-home">
-        <!-- Swiper -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/uno.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/dos.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/tres.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/cuatro.webp" alt="" /></a>
-            </div>
-            <!-- Agrega más slides si lo necesitas -->
-          </div>
-          <!-- Si deseas paginación -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-      <section class="seccion-bienvenida">
-        <h2>Tienda de diseño. Muebles y objetos decorativos. Encontrá tendencia en mobiliario y deco del mundo.</h2>
-      </section>
-      <!--       <section class="seccion-carrusel-descuentos">
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/tres.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/tres.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/tres.webp" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a href=""><img src="/images/carrusel-home/tres.webp" alt="" /></a>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section> -->
-      <section class="seccion-categorias">
-        <div class="contenedor-solapas">
-          <div class="solapa">
-            <a href="html/producto.html?categoria=beauty">
-              <div class="texto"><h2>Living</h2></div>
-              <img src="/images/categorias/living.webp" alt="Living" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=vehicle">
-              <div class="texto"><h2>Decoración</h2></div>
-              <img src="/images/categorias/deco.webp" alt="Decoracion" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=tops">
-              <div class="texto"><h2>Comedor</h2></div>
-              <img src="/images/categorias/comedor.webp" alt="Comedor" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=motorcycle">
-              <div class="texto"><h2>Iluminación</h2></div>
-              <img src="/images/categorias/iluminacion.webp" alt="Iluminación" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=laptops">
-              <div class="texto"><h2>Galería</h2></div>
-              <img src="/images/categorias/galeria.webp" alt="Galería" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=groceries">
-              <div class="texto"><h2>Dormitorio</h2></div>
-              <img src="/images/categorias/dormitorio.webp" alt="Dormitorio" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=smartphones">
-              <div class="texto"><h2>Escritorio</h2></div>
-              <img src="/images/categorias/escritorio.webp" alt="Escritorio" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=mens-shoes">
-              <div class="texto"><h2>Alfombras</h2></div>
-              <img src="/images/categorias/alfombras.webp" alt="Alfombras" />
-            </a>
-          </div>
-          <div class="solapa">
-            <a href="html/producto.html?categoria=tablets">
-              <div class="texto"><h2>Novedades</h2></div>
-              <img src="/images/categorias/new-in.webp" alt="Novedades" />
-            </a>
-          </div>
-        </div>
-      </section>
+      <section class="seccion-productos" id="seccion-productos"></section>
     </main>
     <footer>
       <div class="contenedor-principal-footer">
@@ -288,5 +187,5 @@
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="scripts/swiper.js"></script>
+  <script src="../scripts/api.js"></script>
 </html>

@@ -1,0 +1,51 @@
+.seccion-productos {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.seccion-productos .contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  row-gap: 30px;
+  gap: 30px;
+
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.tarjeta-producto-link {
+  color: var(--color-f);
+  text-decoration: none;
+}
+
+.tarjeta-producto {
+  position: relative;
+  margin: 0 3rem;
+}
+
+.contenedor-imagen {
+  background-color: rgba(255, 255, 255, 0.016);
+  height: 260px;
+  align-content: center;
+}
+
+.tarjeta-producto img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.tarjeta-producto .descuento-producto {
+  font-size: 14px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.contenedor-informacion h3,
+.contenedor-informacion p {
+  padding: 2px 2px 2px 0;
+  margin: 2px 2px 2px 0;
+}
