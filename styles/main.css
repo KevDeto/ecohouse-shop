@@ -317,15 +317,41 @@ footer {
   padding: 1rem;
 }
 
-/**/
-/* @media (min-width: 768px) {
-  .contenedor-principal-header {
-    flex-direction: row;
-    justify-content: space-between;
+@media (max-width: 768px) {
+  .contenedor-principal-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 
-  .contenedor-principal-footer {
-    flex-direction: row;
-    justify-content: space-between;
+  .contenedor-principal-footer > div {
+    width: 100%;
+    text-align: center;
   }
-} */
+
+  .lista-categorias-footer li,
+  .lista-logistica-footer li,
+  .lista-institucional-footer li {
+    margin: 4px 0;
+  }
+
+  .contenedor-boton-arrepentimiento .boton-arrepentimiento {
+    padding: 10px 20px;
+    font-size: 11px;
+  }
+
+  .contenedor-navegacion-redes-footer .navegacion-redes-footer .lista-redes-footer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-defensa-consumidor {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .contenedor-texto-copyright {
+    font-size: 13px;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+}
