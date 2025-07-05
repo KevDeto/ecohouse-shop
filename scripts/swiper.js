@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const swiperHome = new Swiper(".seccion-carrusel-home .swiper", {
     slidesPerView: 1,
     loop: true,
+    autoplay: {
+      delay: 4000,
+    },
     pagination: {
       el: ".seccion-carrusel-home .swiper-pagination",
       clickable: true,
@@ -13,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   const swiperDescuentos = new Swiper(".seccion-carrusel-descuentos .swiper", {
     slidesPerView: 4,
     spaceBetween: 30,
@@ -27,4 +30,4 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".seccion-carrusel-descuentos .swiper-button-prev",
     },
   });
-});
+}); */

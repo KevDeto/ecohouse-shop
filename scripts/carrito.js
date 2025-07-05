@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", iniciarCarrito);
-
 function iniciarCarrito() {
   renderizarSeccionCarrito();
   actualizarContadorCarritoEnHeader();
@@ -143,7 +141,6 @@ function vaciarCarrito() {
       localStorage.removeItem("carrito");
       renderizarSeccionCarrito();
       actualizarContadorCarrito();
-      Swal.fire("Carrito vaciado", "", "success");
     }
   });
 }
@@ -172,3 +169,5 @@ function actualizarContadorCarritoEnHeader() {
   const contador = document.querySelector(".cantidad-productos-carrito");
   if (contador) contador.textContent = totalItems;
 }
+
+document.addEventListener("DOMContentLoaded", iniciarCarrito);
