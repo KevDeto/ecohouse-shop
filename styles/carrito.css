@@ -1,0 +1,138 @@
+main {
+  padding: 2rem;
+  width: 1500px;
+  margin: 0 auto;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--color-f);
+}
+
+.contenedor-carrito {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contenedor-btn-vaciar {
+  padding: 0 2rem;
+}
+
+.seccion-carrito .carrito-vacio {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.carrito-izquierda {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
+  border-radius: 8px;
+  background-color: var(--color-e);
+}
+
+.item-detalle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-f);
+}
+
+.img-carrito {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: var(--color-d);
+}
+
+.nombre-cantidad {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nombre-cantidad span {
+  font-size: 1rem;
+}
+
+.item-precio-eliminar {
+  font-size: 1.2rem;
+  color: var(--color-f);
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.btn-eliminar-item {
+  background-color: #e74c3c;
+  color: var(--color-f);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-vaciar {
+  background-color: #c0392b;
+  color: var(--color-f);
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.carrito-derecha {
+  flex: 1;
+  border: 2px solid var(--color-line);
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: var(--color-e);
+  color: var(--color-f);
+}
+
+.carrito-derecha h3 {
+  padding: 5px;
+}
+
+.btn-comprar {
+  display: block;
+  width: 100%;
+  background-color: var(--color-d);
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.alerta-vaciar,
+.alerta-comprar {
+  border-radius: 1rem;
+  background-color: var(--color-d);
+  color: var(--color-f);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.alerta-titulo {
+  font-weight: bold;
+}
+
+.alerta-boton {
+  background-color: #27814c;
+  color: white;
+}

@@ -60,7 +60,7 @@ function renderizarProductos(categoria) {
   contenedor.innerHTML = productosFiltrados
     .map(
       (producto) => `
-      <a href="#" class="tarjeta-producto-link">
+      <a href="../html/detalle.html?id=${producto.id}" class="tarjeta-producto-link">
         <div class="tarjeta-producto"> 
           <div class="contenedor-imagen">
             <img src="${producto.thumbnail}" alt="${producto.title}" class="imagen-producto">

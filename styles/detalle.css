@@ -1,0 +1,107 @@
+.seccion-producto-detalles {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--color-f);
+}
+
+.contenedor-detalle-producto {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.contenedor-imagenes-producto {
+  display: flex;
+  gap: 30px;
+}
+
+.imagenes-disponibles-producto {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagenes-disponibles-producto img {
+  width: 90px;
+  height: 100px;
+  margin: 1rem;
+  background-color: var(--color-line);
+  cursor: pointer;
+}
+
+.detalle-imagen-producto img {
+  background-color: var(--color-line);
+  height: 600px;
+  border-radius: 10px;
+}
+
+.detalle-info-producto .titulo-producto {
+  font-size: 36px;
+}
+
+.detalle-info-producto .precio-producto {
+  font-size: 28px;
+  padding: 1rem;
+}
+
+.detalle-info-producto .descuento-producto {
+  padding: 0.5rem 1rem;
+}
+
+.cantidad-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.detalle-info-producto .cantidad {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 126px;
+}
+
+.btn-cantidad {
+  color: var(--color-f);
+  display: inline-block;
+  background-color: var(--color-e);
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
+
+.valor-cantidad {
+  display: flex; /*inline-block*/
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.detalle-info-producto .boton-producto .btn-agregar {
+  background-color: var(--color-d);
+  border: none;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  width: 500px;
+  cursor: pointer;
+  color: var(--color-f);
+}
+
+.detalle-info-producto .descripcion-producto {
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.alerta-agregar-carrito {
+  background-color: var(--color-d);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--color-f);
+}
