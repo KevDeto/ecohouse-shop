@@ -318,7 +318,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
+  footer {
     width: 100%;
     padding: 0 1rem;
   }
