@@ -317,7 +317,7 @@ footer {
   padding: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   footer {
     width: 100%;
     padding: 0 1rem;
