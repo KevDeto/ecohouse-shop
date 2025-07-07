@@ -140,7 +140,7 @@ function alertaAgregarCarrito() {
 
 function actualizarContadorCarrito() {
   const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-  const totalItems = carrito.reduce((acc, item) => acc + item.cantidad, 0);
+  const totalItems = carrito.reduce((acumulador, item) => acumulador + item.cantidad, 0);
   const contadorItems = document.querySelector(".cantidad-productos-carrito");
   if (contadorItems) contadorItems.textContent = totalItems;
 }
